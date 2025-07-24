@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context="com.ridheshcybe.nearbyfiles.MainActivity">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Idle"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvConnections"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No connections"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAdvertise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Advertising"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnDiscover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Discovery"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSendFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send File"
+        android:enabled="false"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStopAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop All"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
